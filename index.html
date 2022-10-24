@@ -24,6 +24,11 @@
             cursor: crosshair;
             display: block;
         }
+        h3{
+            color:brown;
+            font-weight: 200;
+            font-size: 2em;
+        }
         h1 {
             position:absolute;
             display:block;
@@ -44,7 +49,6 @@
         }
         h1:hover{
             background: none;
-            background-image: ;
             color: orange;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
         }
@@ -147,12 +151,18 @@
 
 <body>
     <div class="container">
+        
+    </div>
+    <div class="container">
       <h1>
         <span class="fire">H</span> <span class="fire">A</span> <span class="fire">P</span> <span class="fire">P</span> <span class="fire">Y</span> <span class="fire">  </span>
         <span class="fire">D</span><span class="burn">I</span><span class="burn">W</span><span class="fire">A</span><span class="fire">L</span><span class="fire">I</span>
     </h1>
+    <h3>Designed by - <a href="https://www.linkedin.com/in/arnava-kumar-sinha-3a67601b4/">Arnava Kumar Sinha</a></h3>
       <canvas id="canvas">C</canvas>
+      
     </div>
+    
     <script>
         
         window.requestAnimFrame = (function() {
@@ -342,6 +352,7 @@
         });
         window.onload = loop;
     </script>
+    
 </body>
 
 </html>
